@@ -6,6 +6,7 @@ In large-scale financial systems with zero error tolerance, traditional waterfal
 In large-scale financial systems with zero error tolerance, traditional waterfall methods fall short. Project lifecycles are managed using the **Agile philosophy** and **Scrum methodology** to ensure flexibility, transparency, and rapid adaptation to change. Work is organized into iterative 2-week execution cycles called Sprints.
 
 Based on my Business Analysis internship experience at Doğuş Teknoloji, this document outlines how a Business Analyst (BA) acts as a pivotal balancing factor in ensuring this cycle runs smoothly, specifically in managing the status flow of work items accurately on Azure DevOps
+
 ---
 
 ## Scrum Rituals (The 2-Week Cycle)
