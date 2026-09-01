@@ -28,6 +28,9 @@ This repository is organized into professional business and technical documents:
 * **`OBSERVABILITY_AGENT_PRD.md`**: The core Product Requirements Document (PRD) detailing fundamental capabilities, Low Overhead architecture, and KPIs like MTTD/MTTR.
 * **`INTEGRATIONS.md`**: Strategic integration architectures with industry leaders such as Datadog, New Relic, and Dynatrace.
 * **`telemetry_analysis.sql`**: Complex SQL queries simulating database mapping, stored procedures, and operational data analysis for the observability agent.
+## Low-Code Automations & Workflows
+
+* **[UAT Reminder Automation (`COPILOT_UAT_AUTOMATION.md`)](COPILOT_UAT_AUTOMATION.md)**: A low-code workflow built in Microsoft Copilot Studio featuring scheduled triggers, condition gates (`If/Else`), and automated M365 Copilot notifications to resolve UAT bottlenecks and prevent Sprint spillovers.
   
 ---
 *Developed with a focus on analytical thinking, cross-functional team collaboration, and proactive problem-solving in high-stakes technological environments.*
