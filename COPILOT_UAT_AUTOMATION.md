@@ -6,7 +6,9 @@ To eliminate workflow bottlenecks and prevent Sprint spillovers caused by forgot
 ## Workflow Schema & Architecture
 The diagram below illustrates the low-code schematic flow built via Microsoft Copilot Studio, detailing the trigger, conditional time-check, and automated M365 Copilot notification actions.
 
+![Copilot Workflow Detail](copilot_flow_schema1.png)
 ![Copilot Workflow Schema](copilot_flow_schema.png)
+
 
 ## Workflow Logic Steps
 1. **Recurrence Trigger (`Start`):** Initiates the scheduled daily scan of active project states.
