@@ -6,7 +6,7 @@ To eliminate workflow bottlenecks and prevent Sprint spillovers caused by forgot
 ## Workflow Schema & Architecture
 The diagram below illustrates the low-code schematic flow built via Microsoft Copilot Studio, detailing the trigger, conditional time-check, and automated M365 Copilot notification actions.
 
-<img src="copilot_flow_schema1.png" alt="Copilot Workflow Schema" width="500">
+<img src="copilot_flow_schema1.png" alt="Copilot Workflow Schema" width="200">
 <img src="copilot_flow_schema.png" alt="Copilot Workflow Schema" width="500">
 
 ## Workflow Logic Steps
