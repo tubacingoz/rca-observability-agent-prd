@@ -8,7 +8,7 @@ This repository serves as a comprehensive portfolio demonstrating advanced Busin
 **Domain:** FinOps, System Observability, APM (Application Performance Monitoring)
 
 ## The Business Analyst Mission
-At the core of this repository is the fundamental BA philosophy: bridging the gap between business objectives and technological capacity. This involves analyzing complex needs from business units (such as vdf) and transforming them into clear, structured technical solutions for development teams to execute.
+At the core of this repository is the fundamental BA philosophy: bridging the gap between business objectives and technological capacity. This involves analyzing complex needs from business units and transforming them into clear, structured technical solutions for development teams to execute.
 
 ## Project Highlight: The Observability Agent
 Traditional monitoring merely asks "Is the system broken?". This Observability Agent asks "Why did it break and how do we autonomously fix it?".
