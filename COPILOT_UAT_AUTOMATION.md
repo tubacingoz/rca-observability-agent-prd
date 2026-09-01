@@ -9,7 +9,7 @@ The diagrams below illustrate the low-code schematic flow built via Microsoft Co
 <table>
   <tr>
     <td align="center"><b>Execution & Configuration</b></td>
-    <td align="center"><b><Core Architecture & Flow</b></td>
+    <td align="center"><b>Core Architecture & Flow</b></td>
   </tr>
   <tr>
     <td><img src="copilot_flow_schema1.png" alt="Copilot Workflow Schema" width="200"></td>
