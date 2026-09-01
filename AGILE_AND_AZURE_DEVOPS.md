@@ -3,7 +3,6 @@
 ## Overview
 In large-scale financial systems with zero error tolerance, traditional waterfall methods fall short. Project lifecycles are managed using the **Agile philosophy** and **Scrum methodology** to ensure flexibility, transparency, and rapid adaptation to change. Work is organized into iterative 2-week execution cycles called Sprints.
 
-As a Business Analyst (BA), I play a pivotal balancing role in ensuring this cycle runs smoothly and managing the status flow of work items accurately on Azure DevOps[cite: 1].
 
 ---
 
@@ -19,7 +18,7 @@ The operational rhythm is maintained through strictly facilitated Scrum ceremoni
   * **Past Pointing (Urgent Field Realities):** Pointing urgent requests or critical preprod bug fixes resolved mid-sprint to accurately reflect developer effort and align the system with physical reality.
   * **Capacity Lock:** Locking the list and officially starting the Sprint once total points match the team's velocity limit.
 * **Pre-Review Check (Internal Rehearsal):** A final internal quality control meeting to test scenarios before facing the client, ensuring a smooth presentation flow.
-* **Sprint Review (Demo):** Presenting completed and tested features to the client (e.g., vdf) to obtain final UAT approvals prior to deployment, while also shaking hands on the draft agenda for the upcoming sprint.
+* **Sprint Review (Demo):** Presenting completed and tested features to the client to obtain final UAT approvals prior to deployment, while also shaking hands on the draft agenda for the upcoming sprint.
 
 ---
 
@@ -32,11 +31,11 @@ The journey of a Product Backlog Item (PBI) or Bug from concept to production is
 * **Ready to Sprint:** The state where all technical analyses and acceptance criteria are finalized. A card here holds no question marks and is ready for the Sprint Planning meeting. *(Note: While "Analysis" is often a separate column in the industry, it is melted into the "Ready to Sprint" phase in our streamlined workflow.*
 
 ### 2. Execution & Development
-* **Sprint Backlog (Active Run):** Items committed during planning[cite: 1]. Developers pull work from this pool to transition them into the `Development` state.
-* **Development (Branching & Coding):** Developers create branches in the Repos section to isolate changes and protect the main code (Main/Master). If multiple developers work on the same file, **Merge Conflicts** are collaboratively resolved[cite: 1]. Once local testing is done, a Pull Request (PR) is opened to move the code to the Preprod environment[cite: 1].
+* **Sprint Backlog (Active Run):** Items committed during planning. Developers pull work from this pool to transition them into the `Development` state.
+* **Development (Branching & Coding):** Developers create branches in the Repos section to isolate changes and protect the main code (Main/Master). If multiple developers work on the same file, **Merge Conflicts** are collaboratively resolved. Once local testing is done, a Pull Request (PR) is opened to move the code to the Preprod environment.
 
 ### 3. Testing, Approval, and Deployment
-* **Dev Done (Ready for Test):** The code successfully reaches Preprod, and responsibility shifts back to the BA. The BA executes tests, verifies database records, and logs official documentation (including screenshots of successful processes or SQL queries) in the Discussion/Comments section to certify the item is ready for client testing[cite: 1].
+* **Dev Done (Ready for Test):** The code successfully reaches Preprod, and responsibility shifts back to the BA. The BA executes tests, verifies database records, and logs official documentation (including screenshots of successful processes or SQL queries) in the Discussion/Comments section to certify the item is ready for client testing.
 * **In UAT:** Items successfully tested internally are handed over to the business units for their own scenario testing.
 * **UAT Done:** The client confirms the feature works as requested and approves it for production.
 * **Deployed / Closed:** The final state where the deployment package is uploaded to the live environment, verified to run smoothly, and archived.
